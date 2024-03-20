@@ -1,0 +1,61 @@
+.paragraph{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph textarea{
+    width: 97%;
+    height: 300px;
+    padding:10px;
+    border: 1.5px solid  #D2D6DB;
+    resize: none;
+    border-radius: 5px;
+}
+.paragraph>textarea:focus{
+   outline: none;
+}
+
+.paragraph table{
+    margin-top: 30px;
+     width: 100%;
+     padding: 10px;
+}
+
+.paragraph td{
+   padding: 10px;
+}
+
+@media screen and (max-width:575px){
+  
+  .paragraph tr{
+    display: flex;
+    flex-direction: column;
+    /* width: 150px; */
+    width: 150px;
+    
+  }
+  .paragraph table{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+  }
+  .paragraph td,.paragraph th{
+    height: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-inline:10px ;
+
+  }
+  
+
+  .nav-container{
+    width: 250px;
+  }
+
+  .paragraph textarea{
+
+  }
+}
+

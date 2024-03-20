@@ -1,0 +1,58 @@
+th,td{
+    border: 1.5px solid #D2D6DB;;
+    padding:5px;
+    text-align: left;
+}
+.table-data th,tr{
+    width:200px;
+}
+th{
+    background-color: white;
+    color:  #475467;
+}
+td{
+    background-color:   #F9FAFB;
+}
+.table-data td{
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+}
+.word-input{
+ margin-top: 30px;
+}
+.input-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input-field>input{
+   width: 80%;
+   padding: 10px;
+   border-radius: 5px;
+   border: 2px solid #D2D6DB;
+}
+.input-field>button{
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #731EE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+input:focus{
+    outline: none;
+}
+.table-data{
+    margin-top: 30px;
+}
+.data-container{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    border: 1.5px solid #D2D6DB;
+    border-radius: 5px;
+}
