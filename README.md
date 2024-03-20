@@ -26,7 +26,8 @@ This project is a real-time text analyzer built using Vite and React. It calcula
    npm install
    npm run dev
 
-5. Open your browser and navigate to [http://localhost:5173](http://localhost:3000) to view the application.
+5. Open your browser and navigate to 
+[http://localhost:5173](http://localhost:5173) to view the application.
 
 
 
@@ -34,4 +35,5 @@ This project is a real-time text analyzer built using Vite and React. It calcula
 1. Enter or paste text into the input area.
 2. As you type or modify the text, the metrics will be calculated and displayed in real-time.
 
-
+## Live link
+[https://text-analyser-phi.vercel.app/](https://text-analyser-phi.vercel.app/)
